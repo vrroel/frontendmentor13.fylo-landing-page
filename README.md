@@ -4,7 +4,7 @@ This is a solution to the [Fylo landing page with two column layout challenge on
 ### Links
 
 - Solution URL: [GitHub Repository](https://github.com/vrroel/frontendmentor13.fylo-landing-page)
-- Live Site URL: [Site at GiHub Pages](https://vrroel.github.io/frontendmentor10.testimonialgrid/)
+- Live Site URL: [Site at GiHub Pages](https://vrroel.github.io/frontendmentor13.fylo-landing-page/)
 
 ## My process
 
