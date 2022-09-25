@@ -1,0 +1,12 @@
+/* COLORS */
+:root {
+  --very-dark-blue: hsl(243, 87%, 12%);
+  --desaturated-blue: hsl(239, 22%, 44%);
+
+  --bright-blue: hsl(224, 93%, 58%);
+  --moderate-cyan: hsl(170, 45%, 43%);
+
+  --light-grayish-blue: #f6f6fe;
+  --light-gray: hsl(0, 0%, 75%);
+}
+/* END COLORS */

@@ -1,0 +1,131 @@
+.features {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 60px;
+}
+
+.features-bg {
+  background-color: var(--light-grayish-blue);
+  padding-bottom: 60px;
+}
+
+.img-curve img {
+  width: 100%;
+}
+
+.features__content h2 {
+  font-size: 2.3rem;
+  font-weight: 700;
+  /* font-family: "Raleway", sans-serif; */
+  margin-bottom: 1rem;
+}
+
+.features__content p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  line-height: 1.4;
+}
+
+.features__content a {
+  display: flex;
+  align-items: center;
+  color: var(--moderate-cyan);
+  padding-bottom: 0.6rem;
+  gap: 6px;
+  position: relative;
+  width: max-content;
+  margin-bottom: 2rem;
+}
+
+.features__content a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: var(--moderate-cyan);
+}
+
+.card {
+  max-width: 356px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 3rem 2rem 1.5rem 2rem;
+}
+
+p.card__text {
+  font-size: 0.8rem;
+  font-weight: 600;
+  line-height: 1.5;
+  position: relative;
+  margin-bottom: 1rem;
+  color: var(--desaturated-blue);
+  letter-spacing: 0.5px;
+}
+
+.card__text::before {
+  content: "";
+  background-image: url("../images/icon-quotes.svg");
+  position: absolute;
+  width: 13px;
+  height: 12px;
+  top: -1.2rem;
+}
+
+.card__footer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.card__footer img {
+  width: 2rem;
+  border-radius: 50%;
+}
+
+.card__footer span {
+  display: block;
+  font-size: 0.8rem;
+  margin-bottom: 5px;
+}
+
+.card__footer .name {
+  font-weight: 700;
+}
+
+.card__footer .position {
+  font-size: 0.7rem;
+  color: var(--desaturated-blue);
+}
+
+@media (max-width: 950px) {
+  .features {
+    grid-template-columns: 1fr;
+  }
+
+  .features__content h2 {
+    text-align: center;
+    margin-top: 60px;
+  }
+
+  .features__img {
+    grid-row: 1;
+  }
+}
+
+@media (max-width: 500px) {
+  .features__content h2 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .features-bg {
+    padding-top: 30px;
+  }
+
+  .features__content a {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
